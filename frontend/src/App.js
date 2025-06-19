@@ -446,7 +446,7 @@ const blogArticles = [
     `
   },
   {
-    id: 9,
+    id: 10,
     title: "Institutional vs Retail Crypto Security",
     date: "February 22, 2025",
     excerpt: "Why individual crypto investors need different security strategies than institutions, and how to implement enterprise-grade protection.",
