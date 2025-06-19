@@ -423,7 +423,7 @@ const blogArticles = [
     `
   },
   {
-    id: 8,
+    id: 9,
     title: "NFT Security: Protecting Your Digital Collectibles",
     date: "February 25, 2025",
     excerpt: "NFTs represent significant value but come with unique security challenges. Learn how to protect your digital art and collectibles.",
