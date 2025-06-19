@@ -400,7 +400,7 @@ const blogArticles = [
     `
   },
   {
-    id: 7,
+    id: 8,
     title: "Hardware Wallet Security: Beyond the Basics",
     date: "February 28, 2025",
     excerpt: "Hardware wallets aren't foolproof. Learn advanced security techniques to maximize the protection of your cold storage setup.",
