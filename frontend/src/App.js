@@ -377,7 +377,7 @@ const blogArticles = [
     `
   },
   {
-    id: 6,
+    id: 7,
     title: "Multi-Chain Security: Protecting Assets Across Networks",
     date: "March 2, 2025",
     excerpt: "With assets spread across Ethereum, Polygon, BSC, and more, multi-chain security has never been more critical for crypto investors.",
