@@ -353,7 +353,7 @@ const blogArticles = [
     `
   },
   {
-    id: 5,
+    id: 6,
     title: "The Rise of Crypto Scams: How to Stay Protected",
     date: "March 5, 2025",
     excerpt: "Cybercriminals are becoming increasingly sophisticated. Learn to identify and avoid the latest crypto scams targeting individual investors.",
