@@ -232,7 +232,7 @@ const blogArticles = [
     `
   },
   {
-    id: 3,
+    id: 4,
     title: "Understanding AI-Powered Insurance Claims",
     date: "March 10, 2025",
     excerpt: "Deep dive into how artificial intelligence is revolutionizing insurance claims processing through automation and smart contract integration.",
