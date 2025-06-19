@@ -329,7 +329,7 @@ const blogArticles = [
     `
   },
   {
-    id: 4,
+    id: 5,
     title: "DeFi Insurance: Protecting Your Yield Farming Investments",
     date: "March 8, 2025",
     excerpt: "Navigate the risks of DeFi protocols and learn how to protect your yield farming investments with smart insurance strategies.",
