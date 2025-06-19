@@ -159,35 +159,6 @@ const blogArticles = [
     `
   },
   {
-    id: 2,
-    title: "How to Protect Your Crypto in 2025",
-    date: "March 15, 2025",
-    excerpt: "Essential security practices every crypto holder should know to safeguard their digital assets from evolving threats in the Web3 ecosystem.",
-    image: "https://images.pexels.com/photos/6763964/pexels-photo-6763964.jpeg",
-    content: `
-      <h2>Essential Crypto Security Practices for 2025</h2>
-      
-      <p>As the cryptocurrency landscape continues to evolve, so do the threats facing digital asset holders. In 2025, protecting your crypto requires a multi-layered approach that combines traditional security practices with cutting-edge protection strategies.</p>
-      
-      <h3>1. Hardware Wallets: Your First Line of Defense</h3>
-      <p>Hardware wallets remain the gold standard for crypto storage. Devices like Ledger Nano X and Trezor Model T provide offline storage that keeps your private keys away from internet-connected devices. In 2025, look for wallets with biometric authentication and air-gapped transaction signing.</p>
-      
-      <h3>2. Multi-Factor Authentication (MFA)</h3>
-      <p>Never rely on SMS-based 2FA. Use authenticator apps like Google Authenticator or hardware-based solutions like YubiKey. For added security, consider using multiple authentication methods on critical accounts.</p>
-      
-      <h3>3. Smart Contract Auditing</h3>
-      <p>Before interacting with any DeFi protocol or smart contract, check if it has been audited by reputable firms. Use tools like DeFiSafety and CertiK to verify the security ratings of protocols you plan to use.</p>
-      
-      <h3>4. Insurance Coverage</h3>
-      <p>Crypto insurance is no longer optional in 2025. Platforms like BitSafe offer comprehensive coverage for individual users, protecting against hacks, scams, and smart contract failures. Consider it an essential part of your crypto security stack.</p>
-      
-      <h3>5. Regular Security Audits</h3>
-      <p>Conduct quarterly reviews of your security setup. Update passwords, review connected applications, and ensure your backup phrases are secure and accessible only to you.</p>
-      
-      <p><strong>Remember:</strong> The cost of security measures is always less than the cost of losing your crypto assets. Stay vigilant, stay protected.</p>
-    `
-  },
-  {
     id: 3,
     title: "Case Study: $30k Phishing Hack Recovered with BitSafe",
     date: "March 12, 2025",
