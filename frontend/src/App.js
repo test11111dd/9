@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, useNavigate, useParams } from '
 import emailjs from '@emailjs/browser';
 import './App.css';
 
-// Blog articles data (expanded to 11 articles)
+// Blog articles data (10 articles)
 const blogArticles = [
   {
     id: 1,
