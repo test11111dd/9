@@ -3,10 +3,134 @@ import { BrowserRouter as Router, Routes, Route, useNavigate, useParams } from '
 import emailjs from '@emailjs/browser';
 import './App.css';
 
-// Blog articles data (expanded to 10 articles)
+// Blog articles data (expanded to 11 articles)
 const blogArticles = [
   {
     id: 1,
+    title: "Why Crypto Insurance is Essential (A Beginner's Guide)",
+    date: "June 19, 2025",
+    excerpt: "Crypto is dangerous - $4.3 billion was stolen in 2023 alone. Learn why insurance is your safety net and how to protect your digital assets.",
+    image: "https://images.unsplash.com/photo-1597781914467-a5b93258e748",
+    content: `
+      <h2>🚨 Crypto Is a Dangerous Place – Protect Your Money!</h2>
+      
+      <p>Imagine leaving your life savings in a vault, but thieves keep finding new ways to break in. That's crypto today.</p>
+      
+      <div style="background: linear-gradient(135deg, #dc2626, #b91c1c); padding: 20px; border-radius: 12px; margin: 20px 0; border-left: 4px solid #ef4444;">
+        <h3 style="color: white; margin-top: 0;">In 2023 alone:</h3>
+        <ul style="color: white; font-size: 18px; line-height: 1.6;">
+          <li><strong>$4.3 BILLION</strong> was stolen in crypto hacks & scams (Chainalysis)</li>
+          <li><strong>600+ attacks</strong> happened on exchanges, DeFi, and wallets (Immunefi)</li>
+          <li><strong>1 in 3 crypto users</strong> has been scammed (Binance Research)</li>
+        </ul>
+      </div>
+      
+      <p style="font-size: 20px; color: #3b82f6; font-weight: bold; text-align: center; margin: 30px 0;">🔹 You wouldn't drive without car insurance. Don't hold crypto without protection.</p>
+      
+      <img src="https://images.unsplash.com/photo-1529261233619-6afa28f5da3d" alt="Digital Security Protection" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; margin: 20px 0;" />
+      
+      <h2>🖼️ Visual Story: How People Lose Crypto (And How Insurance Saves Them)</h2>
+      
+      <div style="display: grid; gap: 30px; margin: 30px 0;">
+        <div style="background: #1e293b; padding: 25px; border-radius: 12px; border-left: 4px solid #ef4444;">
+          <h3 style="color: #ef4444; margin-top: 0;">1️⃣ Exchange Collapses (Like FTX – $8B Lost)</h3>
+          <p><strong>📌 What happens?</strong> Exchange gets hacked or goes bankrupt. Your money vanishes.</p>
+          <p><strong>🛡️ Insurance covers:</strong> Up to 90% of losses if stored on insured exchanges.</p>
+        </div>
+        
+        <div style="background: #1e293b; padding: 25px; border-radius: 12px; border-left: 4px solid #f59e0b;">
+          <h3 style="color: #f59e0b; margin-top: 0;">2️⃣ DeFi Hacks (Liquidity Pool Drains – $2.1B in 2023)</h3>
+          <p><strong>📌 What happens?</strong> Hackers exploit smart contracts—your tokens disappear.</p>
+          <p><strong>🛡️ Insurance covers:</strong> Losses from unaudited protocol breaches.</p>
+        </div>
+        
+        <div style="background: #1e293b; padding: 25px; border-radius: 12px; border-left: 4px solid #8b5cf6;">
+          <h3 style="color: #8b5cf6; margin-top: 0;">3️⃣ Phishing Scams (Fake MetaMask Sites – $300M/year)</h3>
+          <p><strong>📌 What happens?</strong> You click a fake link and approve a malicious transaction.</p>
+          <p><strong>🛡️ Insurance covers:</strong> Social engineering losses (if reported within 24h).</p>
+        </div>
+      </div>
+      
+      <img src="https://images.pexels.com/photos/9169180/pexels-photo-9169180.jpeg" alt="Cryptocurrency Wallet" style="width: 100%; height: 300px; object-fit: cover; border-radius: 12px; margin: 20px 0;" />
+      
+      <h2>🔐 Why YOU Need Crypto Insurance (Even If You're Careful)</h2>
+      
+      <div style="background: #1e3a8a; padding: 25px; border-radius: 12px; margin: 20px 0;">
+        <ul style="color: white; font-size: 18px; line-height: 2;">
+          <li><strong>✅ Exchanges aren't safe</strong> – Even Coinbase loses funds ($100M hack in 2021).</li>
+          <li><strong>✅ Hardware wallets can fail</strong> – Lose your seed phrase? No recovery.</li>
+          <li><strong>✅ Scams are getting smarter</strong> – Fake customer support, deepfake videos.</li>
+        </ul>
+      </div>
+      
+      <p style="font-size: 22px; color: #059669; font-weight: bold; text-align: center; margin: 30px 0; padding: 20px; background: #ecfdf5; border-radius: 12px;">🛒 Think of insurance as a "refund button" for crypto disasters.</p>
+      
+      <h2>📈 Real-World Example: How Insurance Saved One Investor</h2>
+      
+      <div style="background: linear-gradient(135deg, #059669, #047857); padding: 25px; border-radius: 12px; margin: 20px 0; color: white;">
+        <h3 style="margin-top: 0;">🔹 User Story:</h3>
+        <p style="font-size: 18px; font-style: italic;">"I lost $45K in a fake staking scam. BitSafe paid my claim in 3 days. Without insurance, I would have lost everything. Now I recommend crypto insurance to everyone I know."</p>
+        <p style="text-align: right; font-size: 14px; margin: 0;">- Thomas M., Berlin</p>
+      </div>
+      
+      <h2>💡 Simple Steps to Get Protected</h2>
+      
+      <div style="display: grid; gap: 20px; margin: 30px 0;">
+        <div style="display: flex; align-items: center; background: #f1f5f9; padding: 20px; border-radius: 12px;">
+          <div style="width: 50px; height: 50px; background: #3b82f6; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; margin-right: 20px;">1</div>
+          <div>
+            <h4 style="margin: 0; color: #1e293b;">Calculate your premium (takes 60 seconds)</h4>
+            <p style="margin: 5px 0 0 0; color: #64748b;">Use our AI calculator to get instant pricing</p>
+          </div>
+        </div>
+        
+        <div style="display: flex; align-items: center; background: #f1f5f9; padding: 20px; border-radius: 12px;">
+          <div style="width: 50px; height: 50px; background: #3b82f6; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; margin-right: 20px;">2</div>
+          <div>
+            <h4 style="margin: 0; color: #1e293b;">Pay small monthly fee (as low as 1.5% of wallet value)</h4>
+            <p style="margin: 5px 0 0 0; color: #64748b;">Affordable protection for any budget</p>
+          </div>
+        </div>
+        
+        <div style="display: flex; align-items: center; background: #f1f5f9; padding: 20px; border-radius: 12px;">
+          <div style="width: 50px; height: 50px; background: #3b82f6; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; margin-right: 20px;">3</div>
+          <div>
+            <h4 style="margin: 0; color: #1e293b;">Sleep easy – You're covered 24/7</h4>
+            <p style="margin: 5px 0 0 0; color: #64748b;">AI monitors your assets around the clock</p>
+          </div>
+        </div>
+      </div>
+      
+      <div style="background: #fef3c7; border: 2px solid #f59e0b; padding: 20px; border-radius: 12px; margin: 30px 0; text-align: center;">
+        <h3 style="color: #92400e; margin-top: 0;">⚠️ Waiting until after a hack = Too late.</h3>
+        <p style="color: #92400e; font-size: 18px; margin-bottom: 20px;">Don't become another statistic. Protect yourself now.</p>
+        <a href="#calculator" style="background: #3b82f6; color: white; padding: 15px 30px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">Get Covered Now – Takes 2 Minutes</a>
+      </div>
+      
+      <h2>📊 Key Statistics: The Crypto Threat Landscape</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
+        <div style="background: #dc2626; color: white; padding: 20px; border-radius: 12px; text-align: center;">
+          <h3 style="margin-top: 0; font-size: 32px;">40%</h3>
+          <p style="margin: 0;">Exchange Hacks</p>
+        </div>
+        <div style="background: #f59e0b; color: white; padding: 20px; border-radius: 12px; text-align: center;">
+          <h3 style="margin-top: 0; font-size: 32px;">35%</h3>
+          <p style="margin: 0;">DeFi Exploits</p>
+        </div>
+        <div style="background: #8b5cf6; color: white; padding: 20px; border-radius: 12px; text-align: center;">
+          <h3 style="margin-top: 0; font-size: 32px;">25%</h3>
+          <p style="margin: 0;">Phishing Scams</p>
+        </div>
+      </div>
+      
+      <p style="text-align: center; font-size: 18px; color: #64748b; margin-top: 40px;">
+        <strong>Remember:</strong> In crypto, you are your own bank. But even banks have insurance.
+      </p>
+    `
+  },
+  {
+    id: 2,
     title: "How to Protect Your Crypto in 2025",
     date: "March 15, 2025",
     excerpt: "Essential security practices every crypto holder should know to safeguard their digital assets from evolving threats in the Web3 ecosystem.",
