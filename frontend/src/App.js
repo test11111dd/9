@@ -470,7 +470,7 @@ const blogArticles = [
     `
   },
   {
-    id: 10,
+    id: 11,
     title: "Crypto Insurance Tax Implications",
     date: "February 19, 2025",
     excerpt: "Understanding the tax implications of crypto insurance premiums and payouts in different jurisdictions around the world.",
