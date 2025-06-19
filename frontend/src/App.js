@@ -1393,8 +1393,42 @@ const MainContent = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-4xl font-bold text-white text-center mb-16 fade-in">Latest from BitSafe Blog</h2>
           
+          {/* Featured Article - Beginner's Guide */}
+          <div className="mb-16 fade-in">
+            <div className="bg-gradient-to-r from-blue-600/20 to-purple-600/20 p-6 rounded-2xl border-2 border-blue-500 relative overflow-hidden">
+              <div className="absolute top-0 right-0 bg-blue-500 text-white px-4 py-2 rounded-bl-xl font-bold text-sm">
+                🔥 FEATURED GUIDE
+              </div>
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <div className="inline-block bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold mb-3">
+                    🚨 BEGINNER'S GUIDE
+                  </div>
+                  <h3 className="text-3xl font-bold text-white mb-4">Why Crypto Insurance is Essential</h3>
+                  <p className="text-blue-200 mb-6 text-lg">
+                    $4.3 billion was stolen in crypto hacks & scams in 2023 alone. Learn why insurance is your safety net and how to protect your digital assets.
+                  </p>
+                  <button 
+                    onClick={() => navigate(`/article/1`)}
+                    className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors hover-glow pulse-blue"
+                  >
+                    Read the Complete Guide →
+                  </button>
+                </div>
+                <div>
+                  <img 
+                    src="https://images.unsplash.com/photo-1597781914467-a5b93258e748"
+                    alt="Crypto Security Guide"
+                    className="w-full h-64 object-cover rounded-xl border border-blue-600"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          {/* Regular Blog Articles Grid */}
           <div className="grid md:grid-cols-3 gap-8">
-            {blogArticles.slice(0, 3).map((article, index) => (
+            {blogArticles.slice(1, 4).map((article, index) => (
               <article key={article.id} className={`bg-slate-700/50 rounded-xl overflow-hidden border border-blue-800 hover:border-blue-600 transition-all duration-300 card-hover fade-in`} style={{animationDelay: `${index * 0.1}s`}}>
                 <img 
                   src={article.image}
