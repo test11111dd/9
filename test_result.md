@@ -270,11 +270,10 @@ metadata:
 
 test_plan:
   current_focus:
-    - "Update CTA buttons to redirect to calculator"
-    - "Test button redirect functionality"
-    - "Verify smooth scrolling behavior"
-  stuck_tasks:
-    - "Update CTA buttons to redirect to calculator"
+    - "Blog System Implementation"
+    - "Navigation Testing"
+    - "About Section Testing"
+  stuck_tasks: []
   test_all: false
   test_priority: "high_first"
 
